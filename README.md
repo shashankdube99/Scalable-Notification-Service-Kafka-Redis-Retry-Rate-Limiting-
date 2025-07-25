@@ -29,8 +29,7 @@ Redis (runs inside Docker)
 Kafka + Zookeeper (runs inside Docker)
 
 1. Clone the repository
-    **[[git clone https://github.com/your-username/notification-service.git
-    cd notification-service](https://github.com/shashankdube99/Scalable-Notification-Service-Kafka-Redis-Retry-Rate-Limiting-)](https://github.com/shashankdube99/Scalable-Notification-Service-Kafka-Redis-Retry-Rate-Limiting-)**
+    **(https://github.com/shashankdube99/Scalable-Notification-Service-Kafka-Redis-Retry-Rate-Limiting-)**
 
 2. Start Kafka and Redis using Docker
    **docker-compose up**
