@@ -9,33 +9,6 @@ A robust and scalable notification microservice built with Spring Boot, designed
 🐳 Ready for Dockerized environments with Kafka + Zookeeper
 📈 Scalable & production-friendly architecture
 
-📦 **Project Structure**
-src/
-├── main/
-│   ├── java/com.shashank.kafkarabbit/
-│   │   ├── config/               # Kafka & Redis configs
-│   │   │   ├── KafkaProducerConfig.java
-│   │   │   ├── KafkaConsumerConfig.java
-│   │   │   └── RedisConfig.java
-│   │   ├── consumer/             # Kafka listener
-│   │   │   └── NotificationConsumer.java
-│   │   ├── controller/           # REST API Controller
-│   │   │   └── NotificationController.java
-│   │   ├── model/                # POJOs
-│   │   │   ├── NotificationRequest.java
-│   │   │   └── RetryNotification.java
-│   │   ├── ratelimiter/          # Redis-based rate limiter
-│   │   │   └── RateLimiterService.java
-│   │   ├── retry/                # Retry queue with exponential backoff
-│   │   │   └── RetryProcessor.java
-│   │   ├── service/              # Business logic
-│   │   │   └── NotificationService.java
-│   │   └── KafkaApplication.java # Main class
-│   └── resources/
-│       ├── application.properties
-│       └── docker-compose.yml    # Kafka + Zookeeper setup
-└── test/java/
-
 ⚙️ **Technologies Used**
 Java 17
 Spring Boot 3
